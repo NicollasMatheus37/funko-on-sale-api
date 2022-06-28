@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 import Login from "./pages/login";
-import NewsLetterPage from "./pages/newsletter";
+import Store from "./pages/store";
 import NotFound from "./pages/notFound";
 import Register from "./pages/register";
 
@@ -11,9 +11,9 @@ function RoutesApp() {
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/newsletter" element={<NewsLetterPage />}></Route>
+        <Route path="/store" element={<Store />}></Route>
         <Route path="/" element={<Navigate to="/login" />} />
-        <Route path="*" element={<NotFound/>}></Route>
+        <Route path="*" element={<NotFound />}></Route>
       </Routes>
     </BrowserRouter>
   );
