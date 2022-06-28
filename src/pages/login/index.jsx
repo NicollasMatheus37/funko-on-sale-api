@@ -14,9 +14,6 @@ function Login() {
   const [users, setUsers] = useState([]);
   const navigate = useNavigate();
 
-  useEffect(() => {
-    //executa antes de abrir a tela
-  }, [])
 
   function handleLogin() {
     if (!username || !password) return alert("Preencha todos os campos");
