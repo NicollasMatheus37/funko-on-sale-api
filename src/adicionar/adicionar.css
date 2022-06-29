@@ -1,0 +1,22 @@
+.form-demo .card {
+    min-width: 450px;
+}
+.form-demo .card form {
+    margin-top: 2rem;
+}
+.form-demo .card .field {
+    margin-bottom: 1.5rem;
+}
+.form-demo {
+    padding: 6rem 40rem 10rem 40rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mt-2 {
+    margin-top: 2rem;
+    display: block;
+    margin-left: auto;
+    max-width: 25%;
+}
+

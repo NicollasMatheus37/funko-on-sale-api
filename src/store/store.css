@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Trispace:wght@200&display=swap');
+
+.p-menubar-root-list .p-menuitem:nth-child(4) {
+  position: absolute;
+  right: 0;
+  padding-right: 2rem;
+}
+.p-menubar-root-list .p-menuitem:nth-child(5) {
+  position: absolute;
+  right: 5rem;
+  padding-right: 2rem;
+}
+
+.card2 {
+  height: 5rem;
+}
+
+.logo {
+  display: flex;
+  padding-left: 3.5rem;
+  padding-right: 3.9rem;
+  align-items: center;
+
+}
+.logo h1 {
+  color: #495057;
+  font-family: 'Trispace', sans-serif;
+  letter-spacing: -5px;
+}
+
+.mr-2 {
+  height: 3.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.banner-desconto {
+  height: 580px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.novidades {
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 10px;
+  letter-spacing: 3px;
+}
+
+.secao-marcas {
+  display: flex;
+  justify-content: center;
+}
+
+.secao-marcas img {
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
+
+
+  
