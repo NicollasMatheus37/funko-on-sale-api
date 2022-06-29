@@ -4,6 +4,7 @@ import Login from "./pages/login";
 import Store from "./pages/store";
 import NotFound from "./pages/notFound";
 import Register from "./pages/register";
+import Adicionar from "./pages/adicionar"
 
 function RoutesApp() {
   return (
@@ -14,6 +15,7 @@ function RoutesApp() {
         <Route path="/store" element={<Store />}></Route>
         <Route path="/" element={<Navigate to="/login" />} />
         <Route path="*" element={<NotFound />}></Route>
+        <Route path="/adicionar" element={<Adicionar />}></Route>
       </Routes>
     </BrowserRouter>
   );
