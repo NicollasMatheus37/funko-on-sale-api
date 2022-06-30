@@ -1,2 +1,3 @@
 # funko-on-sale-api
-React + Express + MongoDB funkoOnSale application
+
+Express + MongoDB funkoOnSale api
