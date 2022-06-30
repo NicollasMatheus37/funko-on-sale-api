@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 userRoutes();
-// funkoRoutes();
+funkoRoutes();
 
 function userRoutes() {
     const userController = require('./app/controllers/user.controller');
@@ -14,7 +14,7 @@ function userRoutes() {
     router.delete('/users/:id', userController.delete);
 }
 
-function userRoutes() {
+function funkoRoutes() {
     const funkoController = require('./app/controllers/funko.controller');
 
     router.get('/funkos', funkoController.index);
