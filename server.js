@@ -1,10 +1,12 @@
 const express = require("express");
+const cors = require('cors');
 const db = require("./database/config");
 const mongoose = require("mongoose");
 
 class App {
     constructor() {
         this.express = express();
+        this.express.use(cors());
 
         this.database();
         this.middlewares();
